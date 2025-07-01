@@ -49,7 +49,7 @@ function purchaseUpgrade(cost,newClickValue,element,storageKey) {
     }
 }
 
-hairBrushe.addEventListener("click", () => purchaseUpgrade(20, 2, hairBrushe, "hairBrushePurchased"));
+hairBrushe.addEventListener("click", () => purchaseUpgrade(20, 2, hairBrushe, "hairBrushPurchased"));
 hairDryer.addEventListener("click", () => purchaseUpgrade(100, 3, hairDryer, "hairDryerPurchased"));
 lipstick.addEventListener("click", () => purchaseUpgrade(250, 4, lipstick, "lipstickPurchased"));
 mascara.addEventListener("click", () => purchaseUpgrade(500, 5, mascara, "mascaraPurchased"));
