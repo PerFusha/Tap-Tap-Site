@@ -56,11 +56,11 @@ mascara.addEventListener("click", () => purchaseUpgrade(500, 5, mascara, "mascar
 
 left.addEventListener("click", () => {
     carousel.scrollBy({
-        left: -180,
+        left: -170,
     });
 })
 right.addEventListener("click", () => {
     carousel.scrollBy({
-        left: 180,
+        left: 170,
     });
 });
