@@ -5,7 +5,7 @@ let tapCount = document.getElementById("tapCount");
 tapCount.innerHTML = Counter;
 
 const fluttershy = document.getElementById("fluttershy");
-const hairBrushe = document.getElementById("hairBrush");
+const hairBrush = document.getElementById("hairBrush");
 const hairDryer = document.getElementById("hairDryer");
 const lipstick = document.getElementById("lipstick");
 const mascara = document.getElementById("mascara");
@@ -14,7 +14,7 @@ const left = document.getElementById("leftArrowBtn");
 const carousel = document.getElementById("recUpgrade");
 
 if (localStorage.getItem("hairBrushPurchased") === "true" ) {
-    hairBrushe.classList.add("purchased");
+    hairBrush.classList.add("purchased");
 }
 if (localStorage.getItem("hairDryerPurchased") === "true" ) {
     hairDryer.classList.add("purchased");
@@ -49,7 +49,7 @@ function purchaseUpgrade(cost,newClickValue,element,storageKey) {
     }
 }
 
-hairBrushe.addEventListener("click", () => purchaseUpgrade(20, 2, hairBrushe, "hairBrushPurchased"));
+hairBrush.addEventListener("click", () => purchaseUpgrade(20, 2, hairBrush, "hairBrushPurchased"));
 hairDryer.addEventListener("click", () => purchaseUpgrade(100, 3, hairDryer, "hairDryerPurchased"));
 lipstick.addEventListener("click", () => purchaseUpgrade(250, 4, lipstick, "lipstickPurchased"));
 mascara.addEventListener("click", () => purchaseUpgrade(500, 5, mascara, "mascaraPurchased"));
