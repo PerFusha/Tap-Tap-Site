@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body, input{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+body{
+    display: flex;
+    background: white;
+    justify-content: start;
+    align-items: center;
+
+}
+header {
+    justify-content: start;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: #FFF798;
+    box-shadow: 0 0 9px #ECCD25;
+    border-bottom: #ECCD25 3px solid;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+header a {
+    margin-left: 1.7%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+main{
+    margin-left: 4.5%;
+    box-shadow: 0 0 9px #ECCD25;
+    border: 3px #ECCD25 solid;
+    border-radius: 35px;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    background: #FFF798;
+    width: 62vh;
+    height: 73vh;
+}
+#mainMenu{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#mainTitle{
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0 2.5% 0;
+    text-shadow: 2px 2px 4px #ECCD25;
+    font-size: 40px;
+}
+#fluttershy{
+    cursor: pointer;
+    filter: drop-shadow(0px 1px 7px #ECCD25);
+    display: flex;
+    width: 89%;
+}
+#recUpgrade{
+    scroll-behavior: smooth;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    margin-top: 2%;
+    overflow-x: scroll;
+    width: 62vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#recUpgrade::-webkit-scrollbar {
+    display: none;
+}
+
+.purchased{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.MainPrice{
+    color: black;
+}
+.containerMain{
+    width: 18vh;
+    align-items: end;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+#upgrade{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 62vh;
+}
+.containerTitle{
+    font-size: 20px;
+}
+.recUpgradeContainer{
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 8px #ECCD25;
+    border: 2px solid #ED80B3;
+    width: 30%;
+    padding: 4px 17px 10px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    display: flex;
+    background: #F5B7D5;
+    flex-direction: column;
+}
+.MainImg{
+    border: 2px #ED80B3 solid;
+    padding: 3%;
+    width: 5.4vh;
+    height: 5.4vh;
+    background: #ff8ac1;
+    border-radius: 15px;
+}
+#leftArrowBtn{
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 15px;
+    border: none;
+    background: #ECCD25;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20px;
+    height: 8vh;
+}
+#rightArrowBtn{
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 15px;
+    border: none;
+    background: #ECCD25;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20px;
+    height: 8vh;
+}
+#leftArrow{
+    display: flex;
+    width: 20px;
+    height: 4vh;
+}
+#rightArrow{
+    display: flex;
+    width: 20px;
+    height: 4vh;
+}
+#recTitle{
+    padding: 0 10px 0 10px;
+    border-radius: 7px;
+    background: #ECCD25;
+    margin-top: 3%;
+    font-size: 20px;
+}
